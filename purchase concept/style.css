@@ -1,0 +1,462 @@
+
+.bg-custom{
+    background-color: black;
+
+}
+
+:root, html 
+{
+  //font-size: 62.5%; //10px
+  font-size: 10px;
+}
+
+/* Navbar branding text and logo style */
+
+.navbar-brand b {
+	margin-left: 7px;
+}
+
+.navbar-brand img {
+    margin-top: -5px;
+}
+
+.dropdown-menu {
+	border-radius: 0px;
+
+}
+
+.dropdown-menu a {
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 993px) {
+  #card-deck {
+    flex-flow: column;
+  }
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!! */
+/* Left card css style */
+
+#pricing-versions {
+	margin-top: 50px;
+
+}
+.card-body {
+	padding: 0;
+}
+
+
+
+#left-card-header {
+	background-color: #2fb954;
+	
+}
+
+#left-card-header h2 {
+	color: white;
+	font-weight: 900;
+}
+
+#left-card-header p {
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
+
+#first-price {
+	font-size: 3.7rem;
+}
+
+#first-list-items {
+	padding-left: 15px;
+	text-align: left;
+	color: darkgrey;
+	font-size: 1.1rem;
+}
+
+#first-list-items li {
+	margin-top: 23px;
+}
+
+#first-list-items i {
+	vertical-align: baseline;
+	margin-right:  10px;
+}
+
+.bottom-first {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:0px;
+	padding-right: 0px;
+	width: 100%;
+	background-color: #2fb954;
+	
+}
+
+.bottom-first img {
+	padding-top: 25px;
+	
+	
+}
+
+
+#left-card {
+	margin-bottom: 65px;
+	display: inline-table;
+	margin-top: 45px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#payment-method {
+	margin-top: 15px;
+	display: block;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	color: #d9d9d9;
+	font-weight: 300;
+	letter-spacing: 0.1px;
+	font-size: 1rem;
+
+}
+#payment-method:hover {
+	color: lightblue;
+}
+
+
+
+/* Middle card css style*/
+#middle-card {
+	display: inline-table;
+}
+
+#middle-card-header {
+	background-color: #000000;
+	
+}
+
+#middle-card-header h2 {
+	color: white;
+	font-weight: 900;
+}
+
+#middle-card-header p {
+	text-align: center;
+	color: white;
+	font-size: 1.2rem;
+}
+
+#second-price {
+	font-size: 3.7rem;
+}
+
+#second-list-items {
+	padding-left: 15px;
+	text-align: left;
+	color: darkgrey;
+	font-size: 1.1rem;
+}
+
+#second-list-items li {
+	margin-top: 23px;
+}
+
+#second-list-items i{
+	vertical-align: baseline;
+	margin-right:  10px;
+}
+
+.bottom-second {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:0px;
+	padding-right: 0px;
+	width: 100%;
+	
+	background-color: black;
+}
+.bottom-second img {
+	
+	margin-bottom: auto;
+	padding-top: 25px;
+	;
+	background-color:  #000000;
+}
+#middle-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Right card css style*/
+
+#right-card-header {
+	background-color: #ff4500;
+	;
+}
+
+#right-card-header h2 {
+	color: white;
+	font-weight: 900;
+}
+
+#right-card-header p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+#third-price {
+	font-size: 3.7rem;
+}
+
+#third-list-items {
+	padding-left: 15px;
+	text-align: left;
+	color: darkgrey;
+	font-size: 1.1rem;
+}
+
+#third-list-items li {
+	margin-top: 23px;
+}
+
+#third-list-items i{
+	vertical-align: baseline;
+	margin-right:  10px;
+}
+
+.bottom-third {
+	
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:0px;
+	padding-right: 0px;
+	width: 100%;
+	
+	background-color: #ff4500;
+}
+.bottom-third img {
+	padding-top: 25px;
+	background-color: #ff4500;
+	
+}
+
+#right-card {
+	display: inline-table;
+	margin-top: 45px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+	 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.see-also p {
+	text-align: center;
+	font-size: 27px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+/* Accordion information*/
+.accordion-menu {
+	margin-bottom: 60px;
+	width: 70%;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#accordion-button {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	float: right;
+	border-radius: 0px;
+	color: #007bff;
+	border-color: #007bff;
+}
+#accordion-button:hover {
+	background-color: #007bff;
+	color: white;
+	font-weight: 600;
+}
+
+
+/* Accordion goes 100% width for mobile device */
+@media only screen and (max-width: 600px) {
+  .accordion-menu {
+    width: 98%;
+  }
+}
+
+
+
+#headingOne button{
+	font-size: 22px;
+	color:  #1a1a1a;
+	text-align: left;
+	width: 100%;
+
+}
+
+#headingTwo button{
+	font-size: 22px;
+	color:#1a1a1a;
+	text-align: left;
+	width: 100%;
+}
+
+#headingThree button{
+	font-size: 22px;
+	color: #1a1a1a;
+	text-align: left;
+	width: 100%;
+
+}
+
+#headingFour button{
+	font-size: 22px;
+	color: #1a1a1a;
+	text-align: left;
+	width: 100%;
+
+}
+
+#headingFive button{
+	font-size: 22px;
+	color: #1a1a1a;
+	text-align: left;
+	width: 100%;
+}
+
+#headingSix button{
+	font-size: 22px;
+	color: #1a1a1a;
+	text-align: left;
+	width: 100%;
+}
+
+#colapse-style {
+	color:  #404040;
+	font-size: 17px;
+	font-weight: 500;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+/*//////////////// modal concept design///////////*/
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: black;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f9;
+}
+
+.radio img {
+	width: 30px;
+	margin-left: 15px;
+}
+
+.radio h4 {
+	display: inline-block;
+}
+
+.radio p {
+	color: darkgrey;
+}
+
+
+.modal-dialog{
+	margin-top: 210px;
+}
+
+/* Input field for promo code*/
+
+	.promo-code {
+		margin-top: 40px;
+		text-align: center;
+		margin-bottom: 70px;
+	}
+
+	.promo-code label {
+		font-weight: 600;
+		font-size: 30px;
+	}
+
+
+
+
+
+	/* DISCOUNT PAGE CONCEPT DESIGN */
+	/* DISCOUNT PAGE CONCEPT DESIGN */
+	/* DISCOUNT PAGE CONCEPT DESIGN */
+	/* DISCOUNT PAGE CONCEPT DESIGN */
+	/* DISCOUNT PAGE CONCEPT DESIGN */
+	/* DISCOUNT PAGE CONCEPT DESIGN */
+
+
+
+
+
+
+
+
+#discount-price {
+	font-size: 29px;
+	text-decoration: line-through;
+}
+.card-body h1 {
+	font-size: 50px;
+}
+
+#first-modal-button {
+	border-radius: 0px;
+}
+
+#second-modal-button {
+	border-radius: 0px;
+}
+
+#third-modal-button {
+	border-radius: 0px;
+}
